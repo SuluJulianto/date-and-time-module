@@ -1,10 +1,8 @@
 import datetime
 import pytz
 
-# Define Indonesia timezone
 indonesia_timezone = pytz.timezone('Asia/Jakarta')
 
-# Get current time in Indonesia timezone
 current_time_indonesia = datetime.datetime.now(indonesia_timezone)
 
 print("Time in seconds since epoch:")
