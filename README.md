@@ -11,6 +11,9 @@ The JavaScript file (`timezone_conversion.js`) demonstrates timezone handling us
 ## Ruby
 The Ruby script (`timezone_conversion.rb`) utilizes the `tzinfo` gem to manage timezones. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), illustrating date and time formatting options and extracting specific date components.
 
+## C
+The C code (`timezone_conversion.c`) utilizes standard C library functions (`time.h`) to handle timezones. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`) and showcases different date and time formatting options, similar to the other scripts.
+
 ## C++
 The C++ code (`timezone_conversion.cpp`) demonstrates timezone handling using the `<chrono>` library. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), showcasing different date and time formatting options and extracting date components.
 
