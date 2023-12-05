@@ -1,5 +1,7 @@
+// Define Indonesia timezone
 const indonesiaTimeZone = 'Asia/Jakarta';
 
+// Get current time in Indonesia timezone
 const currentDateTime = new Date().toLocaleString('en-US', { timeZone: indonesiaTimeZone });
 
 console.log("Current date and time:");
@@ -14,7 +16,12 @@ console.log(new Date().toLocaleString('en-US', { timeZone: indonesiaTimeZone, ye
 console.log("\nCurrent Month of the year:");
 console.log(new Date().toLocaleString('en-US', { timeZone: indonesiaTimeZone, month: 'long' }));
 
-console.log("\nWeek number of the year:");
+// Week number of the year calculation (using ISO 8601 definition)
+const now = new Date();
+const startOfYear = new Date(now.getFullYear(), 0, 1);
+const firstWeekNumber = Math.ceil(((now - startOfYear) / 86400000 + startOfYear.getDay() + 1) / 7);
+console.log("\nWeek number of the year (ISO 8601):");
+console.log(firstWeekNumber);
 
 console.log("\nWeekday of week:");
 console.log(new Date().toLocaleString('en-US', { timeZone: indonesiaTimeZone, weekday: 'numeric' }));
