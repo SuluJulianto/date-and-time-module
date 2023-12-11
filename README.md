@@ -23,6 +23,9 @@ The PHP script (`timezone_conversion.php`) illustrates timezone handling using t
 ## Java
 The Java code (`TimezoneConversion.java`) showcases timezone handling using the `java.time` package. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), demonstrating various date and time formatting options and extracting date components.
 
+## Golang
+The Golang script (`timezone_conversion.go`) demonstrates the usage of the `time` package to manage timezones. This script retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), providing examples of different date and time formatting options, and extracting specific date components.
+
 ## Usage
 For each programming language:
 
