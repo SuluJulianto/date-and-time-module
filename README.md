@@ -1,37 +1,37 @@
-# Timezone Conversion in Multiple Programming Languages
+# Konversi Zona Waktu dalam Berbagai Bahasa Pemrograman
 
-This repository contains code snippets demonstrating timezone conversions in various programming languages:
+Repositori ini berisi potongan kode yang menunjukkan konversi zona waktu dalam berbagai bahasa pemrograman:
 
 ## Python
-The Python script (`timezone_conversion.py`) showcases the usage of the `datetime` and `pytz` libraries to work with timezones. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), providing examples of different date and time formatting options, extracting specific date components, and determining weekdays for a given date.
+Skrip Python (`timezone_conversion.py`) menunjukkan penggunaan pustaka `datetime` dan `pytz` untuk bekerja dengan zona waktu. Ini mengambil waktu saat ini di zona waktu Indonesia (`Asia/Jakarta`), memberikan contoh opsi pemformatan tanggal dan waktu yang berbeda, mengekstrak komponen tanggal tertentu, dan menentukan hari kerja untuk tanggal tertentu.
 
 ## JavaScript
-The JavaScript file (`timezone_conversion.js`) demonstrates timezone handling using the `Date` object and the `Intl.DateTimeFormat` API. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), showcasing different date and time formatting options and extracting date components.
+Berkas JavaScript (`timezone_conversion.js`) menunjukkan penanganan zona waktu menggunakan objek `Date` dan API `Intl.DateTimeFormat`. Ini mengambil waktu saat ini di zona waktu Indonesia (`Asia/Jakarta`), menampilkan berbagai opsi pemformatan tanggal dan waktu serta mengekstrak komponen tanggal.
 
 ## Ruby
-The Ruby script (`timezone_conversion.rb`) utilizes the `tzinfo` gem to manage timezones. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), illustrating date and time formatting options and extracting specific date components.
+Skrip Ruby (`timezone_conversion.rb`) menggunakan gem `tzinfo` untuk mengelola zona waktu. Ini mengambil waktu saat ini di zona waktu Indonesia (`Asia/Jakarta`), mengilustrasikan opsi pemformatan tanggal dan waktu serta mengekstrak komponen tanggal tertentu.
 
 ## C
-The C code (`timezone_conversion.c`) utilizes standard C library functions (`time.h`) to handle timezones. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`) and showcases different date and time formatting options, similar to the other scripts.
+Kode C (`timezone_conversion.c`) menggunakan fungsi-fungsi standar pustaka C (`time.h`) untuk menangani zona waktu. Ini mengambil waktu saat ini di zona waktu Indonesia (`Asia/Jakarta`) dan menunjukkan berbagai opsi pemformatan tanggal dan waktu, mirip dengan skrip lainnya.
 
 ## C++
-The C++ code (`timezone_conversion.cpp`) demonstrates timezone handling using the `<chrono>` library. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), showcasing different date and time formatting options and extracting date components.
+Kode C++ (`timezone_conversion.cpp`) menunjukkan penanganan zona waktu menggunakan pustaka `<chrono>`. Ini mengambil waktu saat ini di zona waktu Indonesia (`Asia/Jakarta`), menampilkan berbagai opsi pemformatan tanggal dan waktu serta mengekstrak komponen tanggal.
 
 ## PHP
-The PHP script (`timezone_conversion.php`) illustrates timezone handling using the `DateTime` object and the `DateTimeZone` class. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), providing examples of different date and time formatting options and extracting date components.
+Skrip PHP (`timezone_conversion.php`) menggambarkan penanganan zona waktu menggunakan objek `DateTime` dan kelas `DateTimeZone`. Ini mengambil waktu saat ini di zona waktu Indonesia (`Asia/Jakarta`), memberikan contoh opsi pemformatan tanggal dan waktu yang berbeda serta mengekstrak komponen tanggal.
 
 ## Java
-The Java code (`TimezoneConversion.java`) showcases timezone handling using the `java.time` package. It retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), demonstrating various date and time formatting options and extracting date components.
+Kode Java (`TimezoneConversion.java`) menunjukkan penanganan zona waktu menggunakan paket `java.time`. Ini mengambil waktu saat ini di zona waktu Indonesia (`Asia/Jakarta`), mendemonstrasikan berbagai opsi pemformatan tanggal dan waktu serta mengekstrak komponen tanggal.
 
 ## Golang
-The Golang script (`timezone_conversion.go`) demonstrates the usage of the `time` package to manage timezones. This script retrieves the current time in the Indonesia timezone (`Asia/Jakarta`), providing examples of different date and time formatting options, and extracting specific date components.
+Skrip Golang (`timezone_conversion.go`) menunjukkan penggunaan paket `time` untuk mengelola zona waktu. Skrip ini mengambil waktu saat ini di zona waktu Indonesia (`Asia/Jakarta`), memberikan contoh opsi pemformatan tanggal dan waktu yang berbeda, dan mengekstrak komponen tanggal tertentu.
 
-## Usage
-For each programming language:
+## Penggunaan
+Untuk setiap bahasa pemrograman:
 
-- Ensure you have the necessary dependencies installed.
-- Run the respective script or code snippet to explore timezone conversions, date formatting, and extraction of date components.
-- Modify the code according to your requirements or integrate it into your projects.
+- Pastikan Anda telah menginstal dependensi yang diperlukan.
+- Jalankan skrip atau potongan kode masing-masing untuk menjelajahi konversi zona waktu, pemformatan tanggal, dan ekstraksi komponen tanggal.
+- Modifikasi kode sesuai kebutuhan atau integrasikan ke dalam proyek Anda.
 
-## Contributions
-Feel free to contribute by adding more programming languages or enhancing the existing code snippets to cover additional functionalities or optimizations.
+## Kontribusi
+Silakan berkontribusi dengan menambahkan lebih banyak bahasa pemrograman atau meningkatkan potongan kode yang ada untuk mencakup fungsionalitas atau optimisasi tambahan.
